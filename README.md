@@ -17,11 +17,7 @@ import matplotlib.pyplot as plt
 
 # Enable plots inside the Jupyter Notebook
 %matplotlib inline
-```
-
-    C:\Users\Carsten\Anaconda3\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-      from ._conv import register_converters as _register_converters
-    
+``` 
 
 After importing the libraries we download the "Auditory - single subject" dataset from the SPM homepage. The data comes as a zip-file so after saving the file to the hard disk we need to extract the files. The code below takes care of this.
 
